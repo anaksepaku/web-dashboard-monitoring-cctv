@@ -52,7 +52,7 @@ install FFmpeg di server
    # satu alamat RSTP saja ( livestreming.sh )
  
     # RTSP source with authentication
-      VIDSOURCE="rtsp://alamatRSTP"
+    VIDSOURCE="rtsp://alamat-RTSP-CCTV"
 
 
 
