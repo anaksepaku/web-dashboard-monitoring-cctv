@@ -18,7 +18,7 @@ install FFmpeg di server
  upload file index.html ke /var/www/html/
  - edit file index html pada bagian script input kan url ( IP address SERVER )
  - 
-  <script>
+ [ <script>
   // Configuration
   const cameraConfigs = {
   'camera1': {
@@ -26,7 +26,7 @@ install FFmpeg di server
   name: 'CCTV SIMPANG RT 11',
   resolution: '1280x720',
   fps: 25
-  },
+  }, ]
 
 
 
