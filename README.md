@@ -1,4 +1,4 @@
-cctv monitoring dashboard sederhana di jaringan lokal
+#cctv monitoring dashboard sederhana di jaringan lokal
 
 perangkat yang di butuhkan
 - server ubuntu atau debian
@@ -46,15 +46,15 @@ install FFmpeg di server
    Simpan script sebagai  livestreming.sh atau multi_stream.sh
    Berikan permission eksekusi:
    
-     chmod +x  file scrip .sh nya
+     chmod +x livestreming.sh
+     chmod +x multi_strem.sh
    Jalankan: 
     
-    ./livestreming.sh atau ./multi_stream.sh
+    ./livestreming.sh
+    ./multi_stream.sh
     
    Untuk menjalankan di background: 
    
      nohup ./multi_stream.sh  &
-   Untuk menjalankan di background: 
-      
      nohup ./livestreming.sh  &
   
