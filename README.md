@@ -5,14 +5,16 @@ perangkat yang di butuhkan
 - cctv yang support RTSP
 
 install nginx 
-- sudo apt update
-- sudo apt install nginx
+ 
+    # sudo apt update
+ 
+    # sudo apt install nginx
 
 
 install FFmpeg di server
 
-- sudo apt update
-- sudo apt install ffmpeg
+    # sudo apt update
+    # sudo apt install ffmpeg
 
 
  upload file index.html ke /var/www/html/
