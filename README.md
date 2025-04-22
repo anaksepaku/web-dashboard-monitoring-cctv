@@ -18,9 +18,9 @@ install FFmpeg di server
  upload file index.html ke /var/www/html/
  - edit file index html pada bagian script input kan url ( IP address SERVER )
  - 
- - <script>
+  <script>
   // Configuration
- const cameraConfigs = {
+  const cameraConfigs = {
   'camera1': {
   url: 'http://ipaddressServer/playlist.m3u8',
   name: 'CCTV SIMPANG RT 11',
