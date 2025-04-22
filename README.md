@@ -45,6 +45,26 @@ install FFmpeg di server
     
 
    # Cara Menggunakan:
+   edit file script nya 
+   - masukan alamat RTSP CCTV pada baris
+
+     # satu alamat RSTP saja    
+ 
+          # RTSP source with authentication
+          VIDSOURCE="rtsp://alamatRSTP"
+
+
+
+     # Daftar CCTV dengan konfigurasi masing-masing ( multiple-camera)
+    declare -A CCTV_CONFIGS=(
+    # Format: [nama_stream]="rtsp_url resolusi bitrate fps"
+    ["camera1"]="rtsp://alamatRTSP 1280x720 512k 25"
+    ["camera2"]="rtsp://alamtRTSP 1280x720 512k 25"
+    dan seterusnya 
+
+
+
+   
    Simpan script sebagai  livestreming.sh atau multi_stream.sh
    Berikan permission eksekusi:
    
