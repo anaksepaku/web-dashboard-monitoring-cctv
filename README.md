@@ -27,8 +27,25 @@ install FFmpeg di server
   resolution: '1280x720',
   fps: 25
   },
-            
 
-         
-           
+
+
+
+
+   # Konfigurasi Multiple CCTV
+   edit url nya dengan contoh
+
+  - url: 'http://ipaddresServer/camera1/playlist.m3u8',
+  - url: 'http://ipaddresServer/camera2/playlist.m3u8',
+    dan seterusnya.
+
+
+    
+
+   # Cara Menggunakan:
+    - Simpan script sebagai  livestreming.sh atau multi_stream.sh
+   - Berikan permission eksekusi: chmod +x  file scrip .sh nya
+   - Jalankan: ./livestreming.sh atau ./multi_stream.sh
+   - Untuk menjalankan di background: nohup ./multi_stream.sh  &
+   - Untuk menjalankan di background: nohup ./livestreming.sh  &
   
