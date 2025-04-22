@@ -30,21 +30,14 @@ install FFmpeg di server
        resolution: '1280x720',
        fps: 25
        },
-
-
-
-
-
-   # Konfigurasi Multiple CCTV
+   
+    # Multiple CCTV
    edit url nya dengan contoh
 
   - url: 'http://ipaddresServer/camera1/playlist.m3u8',
   - url: 'http://ipaddresServer/camera2/playlist.m3u8',
     dan seterusnya.
-
-
     
-
    # Cara Menggunakan:
    edit file script nya 
    - masukan alamat RTSP CCTV pada baris
@@ -55,7 +48,7 @@ install FFmpeg di server
     VIDSOURCE="rtsp://alamat-RTSP-CCTV"
 
 
-
+    
    # Daftar CCTV dengan konfigurasi masing-masing ( multiple-camera multi-stream.sh )
      declare -A CCTV_CONFIGS=(
      # Format: [nama_stream]="rtsp_url resolusi bitrate fps"
@@ -69,15 +62,15 @@ install FFmpeg di server
    Simpan script sebagai  livestreming.sh atau multi_stream.sh
    Berikan permission eksekusi:
    
-     chmod +x livestreming.sh
+     chmod +x livestreming.sh atau 
      chmod +x multi_strem.sh
    Jalankan: 
     
-    ./livestreming.sh
+    ./livestreming.sh atau 
     ./multi_stream.sh
     
    Untuk menjalankan di background: 
    
-     nohup ./multi_stream.sh  &
+     nohup ./multi_stream.sh  & atau
      nohup ./livestreming.sh  &
   
