@@ -43,9 +43,18 @@ install FFmpeg di server
     
 
    # Cara Menggunakan:
-    - Simpan script sebagai  livestreming.sh atau multi_stream.sh
-   - Berikan permission eksekusi: chmod +x  file scrip .sh nya
-   - Jalankan: ./livestreming.sh atau ./multi_stream.sh
-   - Untuk menjalankan di background: nohup ./multi_stream.sh  &
-   - Untuk menjalankan di background: nohup ./livestreming.sh  &
+   Simpan script sebagai  livestreming.sh atau multi_stream.sh
+   Berikan permission eksekusi:
+   
+     chmod +x  file scrip .sh nya
+   Jalankan: 
+    
+    ./livestreming.sh atau ./multi_stream.sh
+    
+   Untuk menjalankan di background: 
+   
+     nohup ./multi_stream.sh  &
+   Untuk menjalankan di background: 
+      
+     nohup ./livestreming.sh  &
   
