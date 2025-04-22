@@ -19,16 +19,17 @@ install FFmpeg di server
 
  upload file index.html ke /var/www/html/
  - edit file index html pada bagian script input kan url ( IP address SERVER )
- - 
- [ <script>
-  // Configuration
-  const cameraConfigs = {
-  'camera1': {
-  url: 'http://ipaddressServer/playlist.m3u8',
-  name: 'CCTV SIMPANG RT 11',
-  resolution: '1280x720',
-  fps: 25
-  }, ]
+
+
+       <script>
+       // Configuration
+       const cameraConfigs = {
+       'camera1': {
+       url: 'http://ipaddressServer/playlist.m3u8',
+       name: 'CCTV SIMPANG RT 11',
+       resolution: '1280x720',
+       fps: 25
+       },
 
 
 
@@ -48,19 +49,19 @@ install FFmpeg di server
    edit file script nya 
    - masukan alamat RTSP CCTV pada baris
 
-     # satu alamat RSTP saja    
+   # satu alamat RSTP saja    
  
-          # RTSP source with authentication
-          VIDSOURCE="rtsp://alamatRSTP"
+    # RTSP source with authentication
+      VIDSOURCE="rtsp://alamatRSTP"
 
 
 
-     # Daftar CCTV dengan konfigurasi masing-masing ( multiple-camera)
-    declare -A CCTV_CONFIGS=(
-    # Format: [nama_stream]="rtsp_url resolusi bitrate fps"
-    ["camera1"]="rtsp://alamatRTSP 1280x720 512k 25"
-    ["camera2"]="rtsp://alamtRTSP 1280x720 512k 25"
-    dan seterusnya 
+   # Daftar CCTV dengan konfigurasi masing-masing ( multiple-camera)
+     declare -A CCTV_CONFIGS=(
+     # Format: [nama_stream]="rtsp_url resolusi bitrate fps"
+     ["camera1"]="rtsp://alamatRTSP 1280x720 512k 25"
+     ["camera2"]="rtsp://alamtRTSP 1280x720 512k 25"
+     dan seterusnya 
 
 
 
