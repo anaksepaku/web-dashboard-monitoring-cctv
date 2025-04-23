@@ -72,5 +72,5 @@ install FFmpeg di server
    Untuk menjalankan di background: 
    
      nohup ./multi_stream.sh  & atau
-     nohup ./livestreming.sh  &
+     nohup ./livestreaming.sh  &
   
